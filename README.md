@@ -22,7 +22,7 @@ variable.
 Run in the present directory:
 
 ```bash
-juila --project -m "import Pkg; Pkg.instantiate()"
+julia --project -e "import Pkg; Pkg.instantiate()"
 ```
 
 ### Test Run
@@ -30,7 +30,7 @@ juila --project -m "import Pkg; Pkg.instantiate()"
 Run in the present directory:
 
 ```bash
-julia --project -m """include("Tobias.jl"); main()"""
+julia --project -e """include(\"Tobias.jl\"); main()"""
 ```
 
 ### Benchmark Run
@@ -38,5 +38,5 @@ julia --project -m """include("Tobias.jl"); main()"""
 Run in the present directory:
 
 ```bash
-julia --project -m """include("Tobias.jl"); bench()"""
+julia --project -e """include(\"Tobias.jl\"); bench()"""
 ```
