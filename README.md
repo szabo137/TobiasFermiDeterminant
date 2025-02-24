@@ -7,7 +7,7 @@ given in `Tobias.jl`.
 
 ### Install Julia
 
-You need a Julia compiler (see (here)[https://github.com/JuliaLang/juliaup] for details),
+You need a Julia compiler (see [here](https://github.com/JuliaLang/juliaup) for details),
 or just run (on Linux)
 
 ```bash
