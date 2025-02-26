@@ -1,4 +1,5 @@
 [deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Richardson = "708f8203-808e-40c0-ba2d-98a6953ed40d"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
